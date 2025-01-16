@@ -1,1 +1,22 @@
-{}
+{
+    "id": "ayHk9wvNR",
+    "name": "ValoraCRM",
+    "product": "livechat",
+    "blocks": {
+        "authorization": {
+            "clientId": "3d4c49561b0fe3af4e8e200b3c1dc838",
+            "type": "javascript_app",
+            "redirectUri": "https://valoracrm-9375-muhammedadnanvs-projects.vercel.app"
+        },
+        "repository": {
+            "provider": "github",
+            "target": "nextjs",
+            "name": "muhammedadnanv/valoracrm",
+            "branch": "main"
+        },
+        "deployment": {
+            "provider": "vercel",
+            "url": "https://valoracrm-9375-muhammedadnanvs-projects.vercel.app"
+        }
+    }
+}
